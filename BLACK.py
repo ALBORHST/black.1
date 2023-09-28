@@ -28,10 +28,7 @@ WHITE = '\033[1;97m'
 GREEN = '\033[1;32m' #
 YELLOW = '\033[1;33m'
 BLUE = '\033[1;34m'
-ORANGE = '\033[1;35m'
-LUQMAN = '{ LUQMAN }'
-for xd in range(10000):
-    a='Mozilla/5.0 (Linux; U; Android'
+ORANGE = '\033[1;
     b=random.choice(['6','7','8','9','10','11','12'])
     c=' en-us; GT-'
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -187,8 +184,7 @@ def xyz():
     print(f"{BLUE}[01] {GREEN}𝐑𝐀𝐍𝐃𝐎𝐌 𝐂𝐋𝐎𝐍𝐄 𝐏𝐀𝐊  𝐌1")
     print(f"{BLUE}[00] {GREEN}𝐄𝐗𝐈𝐓 𝐏𝐑𝐎𝐆𝐑𝐀𝐌 ")
     print(f"")
-    print(f"\033[1;92m========================================================")
-    LUQMAN = input("[√] 𝐂𝐇𝐎𝐎𝐒𝐄 : ")
+    print(f"\033[1;92m========================================
     if LUQMAN in ["1","01"]:
         Tabii()
     elif LUQMAN in ["0","00"]:
@@ -205,7 +201,7 @@ def Tabii():
     user=[]
     os.getuid
     os.geteuid
-    os.system("clear")
+  
     print(logo)
     print(f"")
     clear()
@@ -301,13 +297,4 @@ def free(uid,pwx,tl):
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\33[1;37m[𝑨𝑳𝑩𝑶𝑹𝑯 𝑺𝑻 ] [%s]\33[1;97m [𝑂𝐾 :%s~𝐂𝐏 :%s]'%(loop,len(oks),len(cps))), 
-        sys.stdout.flush()
-        checks(oks,cps,twf)
-    except:
-        pass
-
-        
- 
-if __name__ == '__main__':
-    xyz()
+        sys.stdout.write(
